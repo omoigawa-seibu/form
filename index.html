@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 検索避け（検索エンジンに表示させない）-->
+  <meta name="robots" content="noindex, nofollow">
+
   <title>限定公開：お知らせ</title>
 
   <style>
     body {
-      font-family: "Helvetica", "Arial", sans-serif;
-      padding: 24px;
-      max-width: 600px;
-      margin: auto;
-      line-height: 1.6;
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
     }
-
+    header img {
+      max-width: 220px;
+      margin-bottom: 25px;
+    }
+    h1 { margin-bottom: 20px; }
+    .meta, .lead { margin-bottom: 16px; }
     .btn {
       display: inline-block;
       padding: 12px 24px;
@@ -23,21 +32,9 @@
       text-decoration: none;
       font-size: 16px;
     }
-
     .btn:hover {
       background: #0056d2;
     }
-
-    #page-title { 
-      margin-bottom: 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-
-    .meta, .lead {
-      margin-bottom: 16px;
-    }
-
     .issuer {
       margin-top: 24px;
       font-size: 14px;
@@ -45,13 +42,15 @@
     }
   </style>
 </head>
-
 <body>
 
+  <!-- ロゴ表示 -->
+  <header>
+    <img src="logo.jpeg" alt="ロゴ画像">
+  </header>
+
   <h1 id="page-title">限定公開：お知らせ</h1>
-
   <p class="meta">このページは URL を知っている方のみが閲覧できます。</p>
-
   <p class="lead">下のボタンから回答をお願いします。</p>
 
   <p>
