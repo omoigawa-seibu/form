@@ -23,10 +23,10 @@
       margin-bottom: 25px;
     }
 
-    /* ▼ SMS用リンク（タイトル）の文字色 */
+    /* タイトル */
     #page-title {
       margin-bottom: 20px;
-      color: #28a745; /* ← ここで色を変更 */
+      color: #28a745;
     }
 
     .meta, .lead {
@@ -47,10 +47,24 @@
       background: #0056d2;
     }
 
+    .note {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* 電話リンク（事務所名） */
+    .office-link {
+      color: #008000;           /* 普通の緑 */
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
     .issuer {
       margin-top: 24px;
       font-size: 14px;
       color: #555;
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -75,7 +89,22 @@
     </a>
   </p>
 
-  <p class="issuer">発行元：<strong>思川西部土地改良区</strong></p>
+  <!-- 注意書き（電話リンク付き） -->
+  <p class="note">
+    ※ボタンを押せない方は
+    <a href="tel:0285381065" class="office-link">
+      思川西部土地改良区事務所
+    </a>
+    までご連絡下さい。
+  </p>
+
+  <!-- 発行元 -->
+  <p class="issuer">
+    発行元：<strong>思川西部土地改良区</strong><br>
+    〒329-0227<br>
+    栃木県小山市大字中里８７０<br>
+    TEL 0285-38-1065
+  </p>
 
 </body>
 </html>
