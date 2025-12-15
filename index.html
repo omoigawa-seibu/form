@@ -17,12 +17,22 @@
       padding: 0 20px;
       text-align: center;
     }
+
     header img {
       max-width: 220px;
       margin-bottom: 25px;
     }
-    h1 { margin-bottom: 20px; }
-    .meta, .lead { margin-bottom: 16px; }
+
+    /* ▼ SMS用リンク（タイトル）の文字色 */
+    #page-title {
+      margin-bottom: 20px;
+      color: #007bff; /* ← ここで色を変更 */
+    }
+
+    .meta, .lead {
+      margin-bottom: 16px;
+    }
+
     .btn {
       display: inline-block;
       padding: 12px 24px;
@@ -32,9 +42,11 @@
       text-decoration: none;
       font-size: 16px;
     }
+
     .btn:hover {
       background: #0056d2;
     }
+
     .issuer {
       margin-top: 24px;
       font-size: 14px;
@@ -42,6 +54,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- ロゴ表示 -->
@@ -50,11 +63,14 @@
   </header>
 
   <h1 id="page-title">SMS用リンク</h1>
+
   <p class="meta">このページは URL を知っている方のみが閲覧できます。</p>
   <p class="lead">下のボタンから回答をお願いします。</p>
 
   <p>
-    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdL3Vus3Vj_BlI7oFzmrteDYTy3nX9n6gRjrZTcXoGNZ0kBfw/viewform?usp=header" target="_blank">
+    <a class="btn"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSdL3Vus3Vj_BlI7oFzmrteDYTy3nX9n6gRjrZTcXoGNZ0kBfw/viewform?usp=header"
+       target="_blank">
       回答はこちら
     </a>
   </p>
